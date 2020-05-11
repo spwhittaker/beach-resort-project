@@ -4,9 +4,11 @@ import Banner from "../Components/Banner";
 import Services from "../Components/Services";
 import { Link } from "react-router-dom";
 import FeaturedRooms from "../Components/FeaturedRooms";
+import StyledButton from "../Components/StyledHero";
 const Home = () => {
   return (
     <>
+      <StyledButton>Hi there</StyledButton>
       <Hero>
         <Banner
           title="luxurious rooms"

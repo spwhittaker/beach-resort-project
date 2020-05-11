@@ -11,20 +11,20 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar">
         <div className="nav-center">
-          <ul
-            className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
-          >
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/rooms">Rooms</Link>
-            </li>
-          </ul>
           <div className="nav-header">
             <Link to="/">
               <img src={logo} alt="Beach Resort" />
             </Link>
+            <ul
+              className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
+            >
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/rooms">Rooms</Link>
+              </li>
+            </ul>
             <button
               type="button"
               className="nav-btn"

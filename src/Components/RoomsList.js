@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./Room";
-import { RoomConsumer } from "../context";
+
 export default function RoomsList({ rooms }) {
   if (rooms.length === 0) {
     return (

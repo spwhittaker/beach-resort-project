@@ -7,7 +7,6 @@ const getUnique = (items, value) => {
 };
 export default function RoomsFilter({ rooms }) {
   const context = useContext(RoomContext);
-  console.log(context);
   const {
     handleChange,
     type,
